@@ -1,0 +1,19 @@
+.app{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* and my DogCard.css looks like this: */.dogCard{
+    height: 150px;
+    width: 190px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px black;
+    overflow: hidden;
+  }
+
+.dogCard img{
+    height: 150px;
+    width: 200px;
+object-fit: contain;
+}
